@@ -1,0 +1,177 @@
+body, html {
+    width: auto;
+    min-height: auto;
+}
+
+
+/*General CSS for all Pages include the container, header, nav, and footer*/
+#container{
+	min-height: auto;
+  width: auto;
+	position:relative;
+	background-color: #9E9E9E;
+	}
+
+  #contentHolder{
+    margin: 25px;
+    background-color: #fff;
+    border: 1px solid black;
+
+  }
+
+.bannerIMG img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/*CSS for navbar*/
+#siteNav{
+  margin-bottom: 5px;
+}
+
+#siteNav a:link {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+#siteNav a:visited {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+
+/*Multi Level NavBar*/
+.dropdown-menu>li{
+  position:relative;
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+-o-user-select: none;
+user-select: none;
+cursor:pointer;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    display:none;
+    margin-top: -1px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	border-left-color:#fff;
+	box-shadow:none;
+}
+
+.right-caret:after,.left-caret:after{
+  content:"";
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  display: inline-block;
+  height: 0;
+  vertical-align: middle;
+  width: 0;
+	margin-left:5px;
+}
+.right-caret:after
+{	border-left: 5px solid #337ab7;
+}
+.left-caret:after
+{	border-right: 5px solid #337ab7;
+}
+
+
+
+/*Social Media Images CSS*/
+#socialMediaFacebook{
+  height: 48px;
+  width: 48px;
+  margin-left: 3px;
+
+}
+#socialMediaFacebook:hover {
+  opacity: 0.7;
+}
+
+#socialMediaTwitter{
+  height: 48px;
+  width: 48px;
+  margin-left: 3px;
+
+}
+
+#socialMediaTwitter:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+#homeWelcoming p{
+  font-family: "Times New Roman";
+  font-size: 24px;
+}
+
+#medalImages{
+  height: 100%;
+  width: 100%;
+}
+
+#aboutImages{
+  height: 100%;
+  width: 100%;
+}
+
+#aboutDescription{
+  background-color: #CCCCCC;
+  border-radius: 8px;
+  font-size: 19.80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start of the Footer CSS*/
+#footer{
+	position:absolute;
+	bottom:100;
+	width:100%;
+	height:40px;   /* Height of the footer */
+	background-color:#e7e7e7;
+  text-align:center;
+	}
+
+#footer p{
+	color: #000000;
+	}
+
+
+/*End of the footer CSS*/
+
+
+/*The construction page is used on pages that are not done yet*/
+#construction{
+	width: 170px;
+  min-height: 100%;
+  margin: 0 175px;
+	float:center;
+  padding: 20px;
+	}
