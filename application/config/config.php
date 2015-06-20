@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://192.168.100.49/miles4medals/index.php/';
+$config['base_url'] = 'http://localhost/miles4medals/index.php/';
 
 /*
 |--------------------------------------------------------------------------

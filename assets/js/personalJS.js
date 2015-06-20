@@ -24,7 +24,7 @@ $(function(){
 
 
 //This function is for the floating Navigation bar
-//--------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------
 $(function () {
 
     var offsetFromTop = window.innerHeight/1.19; // number of pixels of the widget should be from top of the window
@@ -60,4 +60,4 @@ $(function () {
     window.addEventListener("scroll", ff , false);
 
 });
-//--------------------------------------------------------------------------------
+*/--------------------------------------------------------------------------------

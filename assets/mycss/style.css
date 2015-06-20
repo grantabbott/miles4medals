@@ -43,6 +43,16 @@ body, html {
     text-decoration:none;
 }
 
+#header {
+    margin: 20px auto -30px auto;
+    width: 70%;
+    padding-left: 120px;
+
+}
+
+#header button {
+  margin-right: 10px;
+}
 
 /*Multi Level NavBar*/
 .dropdown-menu>li{
